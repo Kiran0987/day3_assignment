@@ -14,7 +14,7 @@ public class EmployeeWageComputation {
 		int empWage = 0;
 		while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS) {
 			totalWorkingDays++;
-			int empCheck=(int)Math.floor(Math.random() * 10) % 3;
+			int empCheck = (int)Math.floor(Math.random() * 10) % 3;
 			if(totalEmpHrs>=96  && empCheck == IS_FULL_TIME) {
 				System.out.println("Max working hour Reached. You can do only part time");
 			}
